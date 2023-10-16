@@ -17,8 +17,9 @@ body, button{
     justify-content: space-between;
 }
 
-header{
-    /* background-color: red; */
+header section{
+    background-color: #B4D0E7;
+    position: relative;
 }
 
 .blue-button {
@@ -26,7 +27,11 @@ header{
     border: 0;
     color: white;
     font-size: 1.05rem;
-    padding: 0.4rem 1rem;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-bottom: 2.5rem;
 }
 
 .logo{
@@ -34,7 +39,8 @@ header{
 }
 
 nav button {
-margin-left: 1rem;
+    margin-left: 1rem;
+    padding: 0.4rem 1rem;
 }
 
 nav li{
@@ -55,4 +61,38 @@ nav li a{
 nav ul{
     display: flex;
     align-items: center;
+}
+
+.jumbotron {
+    margin: 0 22.5rem;
+    padding: 4.5rem 0 2rem 0;
+}
+
+.jumbotron button {
+    margin: 2rem 0;
+    padding: 0.7rem 1rem;
+}
+
+.jumbotron i {
+    font-size: 3.2rem;
+    margin-top: 4.2rem;
+}
+
+.jumbotron img{
+    position: relative;
+    z-index: 1;
+    width: 52.5rem;
+}
+
+.jumbotron-paragraph{
+    margin-bottom: 0.2rem;
+}
+
+.white-line {
+    background-color: white;
+    bottom: 0%;
+    height: 10vh;
+    position: absolute;
+    transform: translateY(1px);
+    width: 100vw;
 }
