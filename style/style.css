@@ -39,10 +39,6 @@ h2{
     margin-bottom: 3.9rem;
 }
 
-.choise-implementation-plans-container {
-        margin: 2.5rem 28.6rem;
-}
-
 .choise-implementation-plans-container input[type="radio"] {
   -ms-transform: scale(1.5);
   -webkit-transform: scale(1.5);
@@ -55,10 +51,15 @@ h2{
 
 .choise-implementation-plans-container label {
     margin-right: 1.8rem;
+    vertical-align: 1px;
 }
 
 .logo{
     margin: 1.8rem 1.3rem;
+}
+
+.main-content-margin {
+    margin: 2.5rem 28.6rem;
 }
 
 nav button {
