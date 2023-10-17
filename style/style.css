@@ -34,6 +34,29 @@ h1 {
     margin-bottom: 2.5rem;
 }
 
+h2{
+    font-size: 2.5rem;
+    margin-bottom: 3.9rem;
+}
+
+.choise-implementation-plans-container {
+        margin: 2.5rem 28.6rem;
+}
+
+.choise-implementation-plans-container input[type="radio"] {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.choise-implementation-plans-container input {
+    margin-left: 0.4rem;
+}
+
+.choise-implementation-plans-container label {
+    margin-right: 1.8rem;
+}
+
 .logo{
     margin: 1.8rem 1.3rem;
 }
