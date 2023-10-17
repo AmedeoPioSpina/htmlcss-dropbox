@@ -39,6 +39,15 @@ h2{
     margin-bottom: 3.9rem;
 }
 
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.choise-implementation-plans-container {
+    margin-bottom: 3rem;
+}
+
 .choise-implementation-plans-container input[type="radio"] {
   -ms-transform: scale(1.5);
   -webkit-transform: scale(1.5);
@@ -52,6 +61,50 @@ h2{
 .choise-implementation-plans-container label {
     margin-right: 1.8rem;
     vertical-align: 1px;
+}
+
+.column {
+    border: 1px solid #DDDDDF;
+    width: 19rem;
+}
+
+.implementation-plans-time {
+    margin-bottom: 3rem;
+}
+
+.implementation-plans-specifications {
+    margin: 0 1.8rem;
+}
+
+.implementation-plans-specifications button{
+    font-size: 0.9rem;
+    margin-left: 0.2rem;
+    padding: 0.7rem 2.2rem;
+}
+
+.implementation-plans-sub-specifications {
+    margin-bottom: 3.2rem;
+}
+
+.implementation-plans-sub-specifications p{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.implementation-plans-sub-specifications i{
+    margin-right: 5px;
+    padding-top: 2px;
+}
+
+.implementation-plans-sub-specifications span{
+    line-height: 1.23rem;
+}
+
+.implementation-plans-user-type {
+    border-bottom: 1px solid #DDDDDF;
+    margin-bottom: 2rem;
+    padding: 0.5rem 0;
+    text-align: center;
 }
 
 .logo{
@@ -110,6 +163,10 @@ nav ul{
 
 .jumbotron-paragraph{
     margin-bottom: 0.2rem;
+}
+
+.price {
+    margin-bottom: 0.5rem;
 }
 
 .white-line {
