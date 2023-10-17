@@ -65,13 +65,20 @@ h3 {
 
 .column {
     border: 1px solid #DDDDDF;
-    width: 19rem;
     height: 59.6rem;
+    margin-bottom: 3rem;
+    width: 19rem;
 }
 
 .icon-spaces {
     margin-right: 5px;
     padding-top: 2px;
+}
+
+.implementation-plans-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .implementation-plans-other-info i {
@@ -98,7 +105,8 @@ h3 {
 .implementation-plans-specifications button{
     font-size: 0.9rem;
     margin: 0 0 1.7rem 0.2rem;
-    padding: 0.7rem 2.2rem;
+    padding: 0.7rem 0;
+    width: 100%;
 }
 
 .implementation-plans-sub-specifications {
@@ -152,6 +160,26 @@ nav ul{
 .price {
     font-weight: bold;
     margin-bottom: 0.5rem;
+}
+
+.row {
+    border: 1px solid #DDDDDF;
+    height: 16rem;
+    width: 100%;
+}
+
+.row button {
+    margin-left: 5rem;
+    width: 15rem;
+}
+
+.row .implementation-plans-specifications {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row .price {
+    margin-bottom: 3rem;
 }
 
 .text-format-margin-b{
