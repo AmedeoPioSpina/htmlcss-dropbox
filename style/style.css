@@ -66,6 +66,21 @@ h3 {
 .column {
     border: 1px solid #DDDDDF;
     width: 19rem;
+    height: 59.6rem;
+}
+
+.icon-spaces {
+    margin-right: 5px;
+    padding-top: 2px;
+}
+
+.implementation-plans-other-info i {
+    color: #0061FF;
+}
+
+.implementation-plans-other-info p {
+    font-weight: bold;
+    margin-bottom: 1.9rem;
 }
 
 .implementation-plans-time {
@@ -76,9 +91,13 @@ h3 {
     margin: 0 1.8rem;
 }
 
+.implementation-plans-specifications hr {
+    margin: 2.5rem 12rem 2.9rem 0;
+}
+
 .implementation-plans-specifications button{
     font-size: 0.9rem;
-    margin-left: 0.2rem;
+    margin: 0 0 1.7rem 0.2rem;
     padding: 0.7rem 2.2rem;
 }
 
@@ -86,25 +105,15 @@ h3 {
     margin-bottom: 3.2rem;
 }
 
-.implementation-plans-sub-specifications p{
-    display: flex;
-    margin-bottom: 1rem;
-}
-
-.implementation-plans-sub-specifications i{
-    margin-right: 5px;
-    padding-top: 2px;
-}
-
-.implementation-plans-sub-specifications span{
-    line-height: 1.23rem;
-}
-
 .implementation-plans-user-type {
     border-bottom: 1px solid #DDDDDF;
     margin-bottom: 2rem;
     padding: 0.5rem 0;
     text-align: center;
+}
+
+.line-height-type-one {
+    line-height: 1.23rem;
 }
 
 .logo{
@@ -140,6 +149,16 @@ nav ul{
     align-items: center;
 }
 
+.price {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.text-format-margin-b{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
 .jumbotron {
     margin: 0 22.5rem;
     padding: 4.5rem 0 2rem 0;
@@ -163,10 +182,6 @@ nav ul{
 
 .jumbotron-paragraph{
     margin-bottom: 0.2rem;
-}
-
-.price {
-    margin-bottom: 0.5rem;
 }
 
 .white-line {
