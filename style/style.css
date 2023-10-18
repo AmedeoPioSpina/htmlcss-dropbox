@@ -34,6 +34,28 @@ body, button{
     width: calc(45% + 1vw);
 }
 
+.faq-container {
+    margin: 9.2rem 28.6rem;
+}
+
+.faq-container h2{
+    border-bottom: 1px solid black;
+    margin: 0;
+    padding-bottom: 3.8rem;
+}
+
+.faq-container div{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 2.5rem 0;
+}
+
+.faq-container i {
+    margin-right: 3rem;
+}
+
 .flex {
     display: flex;
 }
@@ -46,6 +68,23 @@ body, button{
 header section{
     background-color: #B4D0E7;
     position: relative;
+}
+
+.band-container div{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin: 0px 29rem;
+    padding: 8rem 0 4rem 0;
+}
+
+.band-container h2 {
+    width: 30.4rem;
+}
+
+.band-container button {
+    padding: 0.8rem 0;
+    width: 18.4rem;
 }
 
 .bg-light-green {
