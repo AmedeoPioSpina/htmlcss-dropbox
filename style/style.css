@@ -31,7 +31,7 @@ body, button{
 }
 
 .big-square .small-square:first-child img{
-    width: calc(45% + 2rem);
+    width: calc(45% + 1vw);
 }
 
 .flex {
@@ -90,7 +90,7 @@ header section{
 }
 
 .big-border-pistacchio{
-    border: 1rem solid #D1E9CD;
+    border: 1vw solid #D1E9CD;
 }
 
 h1 {
