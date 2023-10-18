@@ -65,6 +65,10 @@ body, button{
     justify-content: space-between;
 }
 
+footer section {
+    background-color: black;
+}
+
 header section{
     background-color: #B4D0E7;
     position: relative;
@@ -251,6 +255,15 @@ h3 {
     text-align: center;
 }
 
+.language {
+    display: flex;
+    align-items: center;
+}
+
+.language p {
+ margin: 0 0.4rem 0 0.6rem;
+}
+
 .line-height-type-one {
     line-height: 1.23rem;
 }
@@ -286,6 +299,35 @@ nav li a{
 nav ul{
     display: flex;
     align-items: center;
+}
+
+.other-container {
+    color: white;
+    margin: 0 22.5rem 0 22.5rem;
+    padding: 6.6rem 0 3rem 0;
+}
+
+.other-container hr {
+    margin: 0 67.5rem 3rem 0;
+}
+
+.other{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+
+.other li {
+    margin-bottom: 1rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.other ul{
+    list-style-type: none;
 }
 
 .partner-container {
