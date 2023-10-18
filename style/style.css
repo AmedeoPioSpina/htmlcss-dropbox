@@ -64,7 +64,7 @@ h3 {
 }
 
 .cards-container-box {
-    margin: 0 28.6rem;
+    margin: 0 28.6rem 8.8rem 28.6rem;
 }
 
 .choise-implementation-plans-container {
@@ -91,6 +91,11 @@ h3 {
     height: 59.6rem;
     margin-bottom: 3rem;
     width: 19rem;
+}
+
+.small-main-container {
+    margin: 0 28.6rem 9.2rem 28.6rem;
+    padding-right: 15rem;
 }
 
 .icon-spaces {
