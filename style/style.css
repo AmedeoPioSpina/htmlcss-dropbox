@@ -15,6 +15,21 @@ body, button{
     width: calc(100vw / 3);
 }
 
+.big-square:nth-child(2) {
+    display: inline;
+}
+.big-square:nth-child(2) div {
+    margin: 8%;
+}
+
+.big-square:nth-child(2) img{
+    margin-bottom: 7.5%;
+    width: 50%;
+}
+.big-square:nth-child(2) p{
+    margin: 7.5% 0;
+}
+
 .big-square .small-square:first-child img{
     width: calc(45% + 2rem);
 }
