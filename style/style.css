@@ -129,7 +129,7 @@ h3 {
 }
 
 .main-content-margin {
-    margin: 2.5rem 28.6rem;
+    margin: 2.5rem 28.6rem 9rem 28.6rem;
 }
 
 nav button {
@@ -155,6 +155,31 @@ nav li a{
 nav ul{
     display: flex;
     align-items: center;
+}
+
+.partner-container {
+    display: flex;
+    margin: 0 28.6rem;
+}
+
+.partner-container button {
+    background-color: white;
+    border: 2px solid black;
+    font-size: 1rem;
+    padding: 0.7rem 0.7rem;
+}
+
+.partner-container h3 {
+    margin-top: 3.7rem;
+}
+
+.partner-container img {
+    margin-right: 3rem;
+    width: 38rem;
+}
+
+.partner-container p {
+    margin: 0 2rem 2.2rem 0;
 }
 
 .price {
