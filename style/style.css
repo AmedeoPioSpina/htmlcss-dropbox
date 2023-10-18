@@ -8,6 +8,17 @@ body, button{
     font-family: 'Open Sans', sans-serif;
 }
 
+.big-square {
+    display: flex;
+    flex-wrap: wrap;
+    height: calc(100vw / 3);
+    width: calc(100vw / 3);
+}
+
+.big-square .small-square:first-child img{
+    width: calc(45% + 2rem);
+}
+
 .flex {
     display: flex;
 }
@@ -22,11 +33,49 @@ header section{
     position: relative;
 }
 
+.bg-light-green {
+    background-color: #A2D39B;
+}
+.bg-dark-red {
+    background-color: #61082B;
+}
+.bg-sky-blue {
+    background-color: #0093CE;
+}
+
+.bg-red {
+    background-color: #FF1C1C;
+}
+
+.bg-light-grey {
+    background-color: #F5F5F5;
+}
+
+.bg-crimson {
+    background-color: #D5001F;
+}
+
+.bg-light-blue {
+    background-color: #B4D0E7;
+}
+
+.bg-blue {
+    background-color: #0D2481;
+}
+
+.bg-yellow {
+    background-color: #FFD830;
+}
+
 .blue-button {
     background-color: #0061FF;
     border: 0;
     color: white;
     font-size: 1.05rem;
+}
+
+.big-border-pistacchio{
+    border: 1rem solid #D1E9CD;
 }
 
 h1 {
@@ -213,6 +262,23 @@ nav ul{
 .price {
     font-weight: bold;
     margin-bottom: 0.5rem;
+}
+
+.small-square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+}
+
+.small-square img {
+    width: 45%;
+
+}
+
+.squares-container {
+    display: flex;
 }
 
 .row {
